@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-dragon-utils",
+  "version": "1.0.0",
+  "name": "Carpet Dragon Utils",
+  "description": "Useful utilities to obtain stationary dragon fireball",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/sirreal/carpet-dragon-utils"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/carpet-dragon-utils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "carpet-dragon-utils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "carpet": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "carpet"
+    }
+  }
+}
